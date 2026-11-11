@@ -3,7 +3,7 @@ using namespace std;
 int add(int a ,int b){
   return a + b;
  }
- double square(double x){
+ int square(double x){
   return x * x;
  }
  bool isEven(int n){
@@ -24,5 +24,5 @@ int main()
     cout<< square(6) << endl;
     cout<< isEven(5) << endl;
     cout<< findMax(5, 6) << endl;
-    cout<< factorial(5) << endl;
+    cout<< factorial(3) << endl;
 }
